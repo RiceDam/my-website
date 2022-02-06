@@ -1,30 +1,17 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.372dd49e.chunk.css",
-    "main.js": "/my-website/static/js/main.fb1d2d84.chunk.js",
-    "main.js.map": "/my-website/static/js/main.fb1d2d84.chunk.js.map",
-    "runtime-main.js": "/my-website/static/js/runtime-main.fc558727.js",
-    "runtime-main.js.map": "/my-website/static/js/runtime-main.fc558727.js.map",
-    "static/js/2.75221c0f.chunk.js": "/my-website/static/js/2.75221c0f.chunk.js",
-    "static/js/2.75221c0f.chunk.js.map": "/my-website/static/js/2.75221c0f.chunk.js.map",
-    "static/js/3.61f9e0b5.chunk.js": "/my-website/static/js/3.61f9e0b5.chunk.js",
-    "static/js/3.61f9e0b5.chunk.js.map": "/my-website/static/js/3.61f9e0b5.chunk.js.map",
+    "main.css": "/my-website/static/css/main.8f8d5b2d.css",
+    "main.js": "/my-website/static/js/main.6082b466.js",
+    "static/js/787.bbe01249.chunk.js": "/my-website/static/js/787.bbe01249.chunk.js",
+    "static/media/Rectangle.svg": "/my-website/static/media/Rectangle.009b31ca04a636a6c3789ee7a4ba6ee1.svg",
+    "static/media/img001.jpg": "/my-website/static/media/img001.ed2bb0a8e26b447a430f.jpg",
     "index.html": "/my-website/index.html",
-    "static/css/main.372dd49e.chunk.css.map": "/my-website/static/css/main.372dd49e.chunk.css.map",
-    "static/js/2.75221c0f.chunk.js.LICENSE.txt": "/my-website/static/js/2.75221c0f.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/my-website/static/media/mobile_background.7ee612c1.svg",
-    "static/media/TextBlurbImg.css": "/my-website/static/media/mobile-project-blurb.77759d92.svg",
-    "static/media/byte_sense.58091fc8.PNG": "/my-website/static/media/byte_sense.58091fc8.PNG",
-    "static/media/gloocel.17892d04.PNG": "/my-website/static/media/gloocel.17892d04.PNG",
-    "static/media/me (1).7678cd6b.png": "/my-website/static/media/me (1).7678cd6b.png",
-    "static/media/TextBlurb.css": "/my-website/static/media/mobile-text-blurb.1c50a794.svg",
-    "static/media/Navbar.css": "/my-website/static/media/nav-button.e793cc42.svg",
-    "static/media/yojana.cad75092.PNG": "/my-website/static/media/yojana.cad75092.PNG"
+    "main.8f8d5b2d.css.map": "/my-website/static/css/main.8f8d5b2d.css.map",
+    "main.6082b466.js.map": "/my-website/static/js/main.6082b466.js.map",
+    "787.bbe01249.chunk.js.map": "/my-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc558727.js",
-    "static/js/2.75221c0f.chunk.js",
-    "static/css/main.372dd49e.chunk.css",
-    "static/js/main.fb1d2d84.chunk.js"
+    "static/css/main.8f8d5b2d.css",
+    "static/js/main.6082b466.js"
   ]
 }
