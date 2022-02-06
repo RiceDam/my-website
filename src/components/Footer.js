@@ -45,6 +45,7 @@ export default function Footer() {
                 container
                 direction="row"
                 gap="5px"
+                justifyContent="center"
                 sx={{
                     width: "fit-content"
                 }}

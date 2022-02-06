@@ -30,7 +30,8 @@ const CodeButtonsStyled = styled(Grid, {})(({theme}) => ({
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        gap: "15px"
+        gap: "15px",
+        padding: "10px"
     }
 }));
 

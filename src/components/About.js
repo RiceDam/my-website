@@ -16,7 +16,7 @@ const tech_list2 = ["JavaScript", "Python", "MySQL", "MongoDB", "Google Firebase
 const tech_list3 = ["Django", "NodeJS", "Angular"];
 
 const AboutStyled = styled(Grid, {})(({ theme }) => ({
-    padding: "80px 10vw",
+    padding: "80px 15vw",
     scrollMarginTop: "150px",
     [theme.breakpoints.down('laptop')]: {
         flexDirection: "column-reverse",
@@ -64,7 +64,8 @@ export default function About() {
             >
                 <Typography variant="h1">About Me</Typography>
                 <Typography variant="h2" color="secondary">Who I Am</Typography>
-                <Typography variant="body1">test</Typography>
+                <Typography variant="body1">I am a full-stack developer with experience in <b>Java</b>, <b>React</b>, <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b></Typography>
+                <Typography variant="body1">I graduated from <b>British Columbia Institute of Technology's Computer Systems Technology</b> program in May 2021 and am seeking a position as a full-stack developer or software developer</Typography>
                 <Typography variant="h2" color="secondary">Technologies</Typography>
                 <TechStyled
                     container
@@ -100,7 +101,7 @@ export default function About() {
                         ))}
                     </ul>
                 </TechStyled>
-                <Typography>test</Typography>
+                <Typography>I am currently looking to make new connections, and expand my network. Please feel free to reach out to me through any of the platforms below.</Typography>
                 <Grid
                     container
                     direction="row"

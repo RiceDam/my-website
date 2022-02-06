@@ -61,7 +61,7 @@ const ProjectsStyled = styled(Box, {})(({ theme }) => ({
     display: "grid",
     gridTemplateColumns: "repeat(2, 1fr)",
     gridAutoRows: "1fr",
-    padding: "4vw",
+    padding: "4vw 10vw",
     gap: "1vw",
     marginLeft: "5vw",
     marginRight: "5vw",
