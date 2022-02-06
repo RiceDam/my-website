@@ -10,6 +10,7 @@ import {
     Email,
 } from '@mui/icons-material'
 import Me from '../images/img001.jpg';
+import { theme } from '../styles/theme.js';
 
 const tech_list1 = ["Java", "React", "C#", "C++", "C", "HTML", "CSS"];
 const tech_list2 = ["JavaScript", "Python", "MySQL", "MongoDB", "Google Firebase", "Docker", ".NET"];
@@ -29,16 +30,18 @@ const AboutStyled = styled(Grid, {})(({ theme }) => ({
 }))
 
 const iconStyle = {
-    color: "#3A95D6",
+    color: theme.palette.text.secondary,
     fontSize: "60px",
-    border: "2px solid #E9F1F2",
+    border: `2px solid ${theme.palette.text.primary}`,
     borderRadius: "40px",
     padding: "10px",
     ":hover": {
-        color: "#333333",
-        backgroundColor: "#3A95D6",
+        color: theme.palette.primary.main,
+        backgroundColor: theme.palette.text.secondary
     }
 }
+
+
 
 const TechStyled = styled(Grid, {})(({theme}) => ({
     [theme.breakpoints.down('tablet')]: {
@@ -64,8 +67,8 @@ export default function About() {
             >
                 <Typography variant="h1">About Me</Typography>
                 <Typography variant="h2" color="secondary">Who I Am</Typography>
-                <Typography variant="body1">I am a full-stack developer with experience in <b>Java</b>, <b>React</b>, <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b></Typography>
-                <Typography variant="body1">I graduated from <b>British Columbia Institute of Technology's Computer Systems Technology</b> program in May 2021 and am seeking a position as a full-stack developer or software developer</Typography>
+                <Typography variant="body1">I am a full-stack developer with experience in <b>Java</b>, <b>React</b>, <b>HTML</b>, <b>CSS</b>, and <b>JavaScript.</b></Typography>
+                <Typography variant="body1">I graduated from <b>British Columbia Institute of Technology's Computer Systems Technology</b> program in May 2021 and am seeking a position as a full-stack developer or software developer.</Typography>
                 <Typography variant="h2" color="secondary">Technologies</Typography>
                 <TechStyled
                     container
@@ -101,7 +104,7 @@ export default function About() {
                         ))}
                     </ul>
                 </TechStyled>
-                <Typography>I am currently looking to make new connections, and expand my network. Please feel free to reach out to me through any of the platforms below.</Typography>
+                <Typography>I am currently looking to make new connections and expand my network. Please feel free to reach out to me through any of the platforms below.</Typography>
                 <Grid
                     container
                     direction="row"

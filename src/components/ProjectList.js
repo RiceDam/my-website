@@ -60,9 +60,8 @@ const links2 = [
 const ProjectsStyled = styled(Box, {})(({ theme }) => ({
     display: "grid",
     gridTemplateColumns: "repeat(2, 1fr)",
-    gridAutoRows: "1fr",
     padding: "4vw 10vw",
-    gap: "1vw",
+    gap: "40px",
     marginLeft: "5vw",
     marginRight: "5vw",
     [theme.breakpoints.down('tablet')]: {
@@ -73,14 +72,14 @@ const ProjectsStyled = styled(Box, {})(({ theme }) => ({
 
 const LinkStyled = styled(Link, {})(({theme}) => ({
     width: 'fit-content',
-    color: '#2FD6C2',
-    border: '#2FD6C2 1px solid',
+    color: theme.palette.tertiary.main,
+    border: `${theme.palette.tertiary.main} 2px solid`,
     marginTop: "10px",
     borderRadius: "50px",
     padding: "1vw",
     ":hover": {
-        backgroundColor: "#2FD6C2",
-        color: "#333333",
+        backgroundColor: theme.palette.tertiary.main,
+        color: theme.palette.primary.main,
     },
     [theme.breakpoints.down('tablet')]: {
         padding: "20px",

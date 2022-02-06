@@ -91,7 +91,7 @@ export default function Navbar() {
                     <LinkStyled variant="h3" 
                         underline="hover" 
                         sx={{ color: "#2FD6C2" }}
-                        href="#banner"
+                        href="#"
                     >
                         Home
                     </LinkStyled>

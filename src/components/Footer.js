@@ -9,7 +9,8 @@ import {
     GitHub,
     LinkedIn,
     Email,
-} from '@mui/icons-material'
+} from '@mui/icons-material';
+import { theme } from '../styles/theme';
 
 const FooterStyled = styled(Grid, {})(({ theme }) => ({
     backgroundImage: `url(${bannerImage})`,
@@ -21,14 +22,14 @@ const FooterStyled = styled(Grid, {})(({ theme }) => ({
 }));
 
 const iconStyle = {
-    color: "#E9F1F2",
-    fontSize: "80px",
-    border: "2px solid #E9F1F2",
+    color: theme.palette.text.primary,
+    fontSize: "60px",
+    border: `2px solid ${theme.palette.text.primary}`,
     borderRadius: "40px",
     padding: "10px",
     ":hover": {
-        color: "#333333",
-        backgroundColor: "#E9F1F2"
+        color: theme.palette.primary.main,
+        backgroundColor: theme.palette.text.primary
     }
 }
 

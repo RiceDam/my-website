@@ -7,7 +7,8 @@ import {
 } from '@mui/material';
 
 const BannerStyled = styled(Grid, {})(({ theme }) => ({
-    height: '100vh',
+    height: 'calc(100vh - 114.31px)',
+    marginTop: '114.31px',
     backgroundImage: `url(${bannerImage})`,
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -15,6 +16,8 @@ const BannerStyled = styled(Grid, {})(({ theme }) => ({
     color: theme.palette.primary.secondary,
     textAlign: "center",
     [theme.breakpoints.down('tablet')]: {
+        height: 'calc(100vh - 96px)',
+        marginTop: '96px',
         "h1": {
             fontSize: "72px",
         }
@@ -23,15 +26,14 @@ const BannerStyled = styled(Grid, {})(({ theme }) => ({
 
 const ButtonStyled = styled(Button, {})(({ theme }) => ({
     marginTop: '40px',
-    color: '#E9F1F2',
-    border: '#E9F1F2 1px solid',
-    borderRadius: "50px",
-    padding: "1vw",
+    color: theme.palette.text.primary,
+    border: `${theme.palette.text.primary} 2px solid`,
+    borderRadius: "60px",
+    padding: "32px",
     textTransform: 'none',
     ":hover": {
-        border: '#E9F1F2 1px solid',
-        backgroundColor: "#E9F1F2",
-        color: "#333333"
+        backgroundColor: theme.palette.text.primary,
+        color: theme.palette.background.default,
     },
     [theme.breakpoints.down('tablet')]: {
         padding: "20px",
@@ -39,7 +41,7 @@ const ButtonStyled = styled(Button, {})(({ theme }) => ({
     }
 }));
 
-const TextStyled = styled(Typography, {})(({theme}) => ({
+const TextStyled = styled(Typography, {})(({ theme }) => ({
     width: "40vw",
     [theme.breakpoints.down('tablet')]: {
         width: "fit-content",
@@ -65,7 +67,7 @@ export default function Banner() {
             <ButtonStyled variant="outlined link"
                 href="https://drive.google.com/drive/folders/17cdw8GQJ90FAYoKtLCaaHJRPmcEfDhuI?usp=sharing"
             >
-                View My Resume
+                View my resume
             </ButtonStyled>
         </BannerStyled>
     )

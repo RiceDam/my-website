@@ -5,15 +5,15 @@ import {
     Typography
 } from '@mui/material';
 
-const ProjectStyled = styled(Grid, {})(() => ({
-    border: "#E9F1F2 2px solid",
+const ProjectStyled = styled(Grid, {})(({theme}) => ({
+    border: `${theme.palette.text.primary} 2px solid`,
     padding: "2vw",
 }))
 
 const LinkStyled = styled(Link, {})(({ theme }) => ({
     color: theme.palette.tertiary.main,
     fontSize: "18px",
-    border: `${theme.palette.tertiary.main} 1px solid`,
+    border: `${theme.palette.tertiary.main} 2px solid`,
     borderRadius: "40px",
     padding: "1vw",
     ":hover": {
