@@ -31,6 +31,7 @@ const MobileNavbarStyled = styled(Grid, {})(({ theme }) => ({
     zIndex: 3,
     height: "100vh",
     position: 'fixed',
+    top: 0,
 }));
 
 const LinkStyled = styled(Link, {})(({ theme }) => ({
@@ -148,7 +149,7 @@ export default function Navbar() {
                     <MobileLinkStyled variant="h3" 
                         underline="hover" 
                         sx={{ color: "#2FD6C2" }}
-                        href="#banner"
+                        href="#"
                         onClick={closeMenu}
                     >
                         Home
