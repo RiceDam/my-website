@@ -2,12 +2,12 @@ import ProjectCard from "./component-cards/project-card";
 
 export default function Featured() {
   return (
-    <div id="featured" className="py-10 px-10 md:px-20 bg-transparent lg:mx-10">
+    <div id="featured" className="py-10 px-10 md:px-20 bg-transparent lg:mx-10 scroll-mt-20">
       <p className="font-extrabold lg:text-5xl lg:text-left text-purple-400 md:text-center md:text-4xl lg:text-5xl lg:text-left mb-10 font-sans text-4xl md:text-purple-300 md:underline md:decoration-8 md:offset-0 md:decoration-purple-500">
         Featured projects
       </p>
 
-      <div className="sm:grid sm:gap-5 lg:grid lg:grid-cols-2 lg:gap-5">
+      <div className="grid gap-5 lg:grid-cols-2">
         <ProjectCard
           projectName="Gloocel Innovations"
           technologiesUsed={[

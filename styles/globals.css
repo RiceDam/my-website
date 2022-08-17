@@ -15,6 +15,7 @@ body {
   background-position: top left;
   background-size: 100vh;
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 
 @media screen and (min-width: 768px) {

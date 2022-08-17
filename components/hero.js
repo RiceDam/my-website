@@ -13,7 +13,7 @@ export default function Hero() {
         I am a full-stack developer who likes coding and eating rice. 🍚
       </p>
       <a
-        href="#"
+        href="https://drive.google.com/drive/folders/17cdw8GQJ90FAYoKtLCaaHJRPmcEfDhuI?usp=sharing"
         className="flex w-fit h-fit gap-2 rounded-lg font-medium bg-purple-500 hover:bg-purple-600 p-4 lg:p-5 text-xl text-white lg:text-2xl"
       >
         <svg

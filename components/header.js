@@ -73,16 +73,16 @@ export default function Header() {
           id="desktop-menu-links"
           className="sm:hidden md:hidden lg:flex lg:flex-row lg:w-fit lg:gap-4 lg:text-white lg:font-semibold"
         >
-          <a className="py-3 px-4 w-fit text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
+          <a href="#about" className="py-3 px-4 w-fit text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
             About me
           </a>
-          <a className="py-3 px-4 w-fit text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
+          <a href="#featured" className="py-3 px-4 w-fit text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
             Featured projects
           </a>
-          <a className="py-3 px-4 w-fit text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
+          <a href="#all-projects" className="py-3 px-4 w-fit text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
             All projects
           </a>
-          <a className="py-3 px-4 w-fit text-center bg-purple-600 hover:bg-purple-700 rounded-md">
+          <a href="https://drive.google.com/drive/folders/17cdw8GQJ90FAYoKtLCaaHJRPmcEfDhuI?usp=sharing" className="py-3 px-4 w-fit text-center bg-purple-600 hover:bg-purple-700 rounded-md">
             My resume
           </a>
         </div>
@@ -108,29 +108,29 @@ export default function Header() {
             onClick={() => openMenu()}
           ></IoMdClose>
           <div className="flex gap-5 flex-col items-center">
-            <a className="p-4 w-full text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
+            <a href="#about" onClick={() => openMenu()} className="p-4 w-full text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
               About me
             </a>
-            <a className="p-4 w-full text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
+            <a href="#featured" onClick={() => openMenu()} className="p-4 w-full text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
               Featured projects
             </a>
-            <a className="p-4 w-full text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
+            <a href="#all-projects" onClick={() => openMenu()} className="p-4 w-full text-center hover:bg-zinc-800 border border-transparent rounded-md hover:border-zinc-700">
               All projects
             </a>
-            <a className="p-4 w-full text-center bg-purple-700 hover:bg-purple-800 rounded-md">
+            <a href="https://drive.google.com/drive/folders/17cdw8GQJ90FAYoKtLCaaHJRPmcEfDhuI?usp=sharing" className="p-4 w-full text-center bg-purple-700 hover:bg-purple-800 rounded-md">
               My resume
             </a>
           </div>
           <div id="about-buttons" className="flex gap-5 mt-auto">
             <a
-              href="#"
+              href="https://github.com/RiceDam"
               className="w-fit h-fit rounded-full bg-zinc-800 p-4 mt-10 border border border-zinc-700"
             >
               <FaGithub className="text-purple-200" size={28}></FaGithub>
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/ericdam/"
               className="w-fit h-fit rounded-full bg-zinc-800 mt-10 p-4 border border border-zinc-700"
             >
               <FaLinkedinIn
@@ -140,7 +140,7 @@ export default function Header() {
             </a>
 
             <a
-              href="#"
+              href="mailto:dam.eric3@gmail.com"
               className="w-fit h-fit rounded-full bg-zinc-800 p-4 mt-10 border border border-zinc-700"
             >
               <FaEnvelopeOpen

@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="py-10 px-10 md:py-0 md:pb-10 md:px-20 text-l bg-transparent lg:mx-10"
+      className="py-10 px-10 md:py-0 md:pb-10 md:px-20 text-l bg-transparent lg:mx-10 scroll-mt-32"
     >
       <p className="font-extrabold md:text-center lg:text-left md:text-4xl text-purple-400 mb-5 font-sans text-4xl lg:text-5xl md:text-purple-300 md:underline md:decoration-8 md:offset-0 md:decoration-purple-500">
         About me
@@ -67,21 +67,21 @@ export default function About() {
 
       <div id="about-buttons" className="flex gap-4">
         <a
-          href="#"
+          href="https://github.com/RiceDam"
           className="w-fit h-fit rounded-full bg-zinc-800 p-4 border border border-zinc-700"
         >
           <FaGithub className="text-purple-200" size={24}></FaGithub>
         </a>
 
         <a
-          href="#"
+          href="https://www.linkedin.com/in/ericdam/"
           className="w-fit h-fit rounded-full bg-zinc-800 p-4 border border border-zinc-700"
         >
           <FaLinkedinIn className="text-purple-200" size={24}></FaLinkedinIn>
         </a>
 
         <a
-          href="#"
+          href="mailto:dam.eric3@gmail.com"
           className="w-fit h-fit rounded-full bg-zinc-800 p-4 border border border-zinc-700"
         >
           <FaEnvelopeOpen

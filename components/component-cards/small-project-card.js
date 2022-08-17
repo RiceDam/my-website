@@ -14,7 +14,7 @@ export default function SmallProjectCard({
   date,
 }) {
   return (
-    <div className="bg-zinc-800 border border-zinc-700 p-5 rounded-lg mb-5 md:mb-0">
+    <div className="bg-zinc-800 border border-zinc-700 p-5 rounded-lg">
       <div className="flex mb-5 justify-center align-center">
         {
           {
