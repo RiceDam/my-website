@@ -13,7 +13,7 @@ export default function About() {
         About me
       </p>
       <p className="font-extrabold text-purple-200 mb-5 font-sans text-2xl lg:text-3xl">
-        Hi, I'm Eric 👋
+        Hi, I&apos;m Eric 👋
       </p>
       <p className="text-white mb-5">
         I am a full-stack developer who likes finding solutions to real-world
@@ -21,7 +21,7 @@ export default function About() {
         JavaScript.
       </p>
       <p className="text-white mb-10">
-        I recently graduated from British Columbia Institute of Technology's
+        I recently graduated from British Columbia Institute of Technology&apos;s
         Computer Systems Technology program in May 2021 and am seeking a
         position as a full-stack developer or software developer.
       </p>
